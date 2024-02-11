@@ -4,7 +4,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain.memory import ConversationSummaryBufferMemory
 from langchain.chains import ConversationChain
 
-load_dotenv()
+#load_dotenv()
 
 # Corrected: Remove the 'f' to use the format method later
 chat_template = """

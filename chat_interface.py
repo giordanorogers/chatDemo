@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import simplestChat
 
 # Load API Key from Environment Variable
-load_dotenv()
+# load_dotenv()
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 # Set Page Title and Configuration

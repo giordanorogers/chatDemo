@@ -1,0 +1,9 @@
+mongoimport --uri 'mongodb+srv://MYUSERNAME:SECRETPASSWORD@mycluster-ABCDE.azure.mongodb.net/test?retryWrites=true&w=majority'
+   --username='MYUSERNAME' \
+   --password='SECRETPASSWORD'
+
+mongoimport \
+   --collection='fields_option' \
+   --file=without_header_row.csv \
+   --type=csv \
+   --fields="tripduration","starttime","stoptime","start station id","start station name","start station latitude","start station longitude","end station id","end station name","end station latitude","end station longitude","bikeid","usertype","birth year","gender"
