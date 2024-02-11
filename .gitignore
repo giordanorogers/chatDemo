@@ -9,3 +9,5 @@ models_extra/
 pinecone_testing/
 
 __pycache__/
+
+elevenlabs.py
